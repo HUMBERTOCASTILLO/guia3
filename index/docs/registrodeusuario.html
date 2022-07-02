@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+
+   <!-- Formularios -->
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+           
+        </ul>
+
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h1>Registro de Usuario</h1>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label>
+                          Codigo Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                           <p> Nivel de Usuario </p>
+                            <input type="radio" name="boton" value="1">Administrador<br>
+                            <input type="radio" name="boton" value="2" checked>Usuario
+                        </label>
+                        <p>Contraseña: <input type="password" name="password" minlength="4"></p>
+
+                        <p>Confirmar Contraseña: <input type="password" name="password" minlength="4"></p>
+                    </div>
+                    <p>Tipo de Documento: <input type="text" name="Tipo de Documento"size="23"></p>
+
+                    <p>N° de Documento: <input type="text" name="apellidos" size="25"></p>
+                </form>
+            </div>
+            <p>Nombres: <input type="text" name="nombres"></p>
+
+            <p>Apellidos: <input type="text" name="apellidos" size="20"></p>
+            <p>Sexo:
+                <input type="radio" name="hm" value="h" required>Masculino
+                <input type="radio" name="hm" value="m">Femenino <br>
+                Teléfono: <input type="tel" name="telefono" placeholder=""> <br>
+                Imail: <input type="tel" name="Imail" placeholder=""><br>
+                <input type="submit" value="Registrar">
+                <input type="reset" value="Limpiar">
+                <input type="reset" value="Cancelar">
+          
+
+</body>
+</html>

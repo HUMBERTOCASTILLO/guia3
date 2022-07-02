@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios en HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>FORMULARIOS EN HTML</h1>
+    </header>
+    <main>
+      <section>
+        <h2>FORMULARIO 1</h2>
+        <form action="">
+          <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <label for="">Nombres:</label>
+            <input
+              type="text"
+              name="nombre"
+              placeholder="Escriba aqui..."
+              spellcheck="false"
+              size="50"
+              autofocus
+              autocomplete="on"
+            />
+            <br /><br />
+            <label for="">Apellidos:</label>
+            <input
+              type="text"
+              name="apellidos"
+              placeholder="Escriba aqui..."
+              spellcheck="false"
+            />
+            <br /><br />
+            <label for="">Edad:</label>
+            <input
+              type="number"
+              name="edad"
+              placeholder="Escriba su edad..."
+              spellcheck="false"
+            />
+            <br /><br />
+            <label for="">Teléfono:</label>
+            <input
+              type="tel"
+              name="telfono"
+              placeholder="Escriba su telefono..."
+              spellcheck="false"
+            />
+            <br /><br />
+            <label for="">Correo:</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Escriba su email..."
+              spellcheck="false"
+            />
+
+            <br /><br />
+            <label for="">Comentario:</label>
+            <textarea name="" cols="12" rows="5"> </textarea>
+
+            <br /><br />
+
+            <label for="">Sexo:</label>
+            <input type="radio" name="sexo" value="H" /> Hombre
+            <input type="radio" name="sexo" value="M" /> Mujer
+            <input type="radio" name="sexo" value="N" /> Prefiero no Decirlo
+            <br /><br />
+
+            <label for="">Fecha de Nacimiento:</label>
+            <input type="datetime-local" />
+            <br /><br />
+
+            <label for="">Hora de Nacimiento:</label>
+            <input type="time" />
+
+            <br /><br />
+
+            <label for="">Hora de MES:</label>
+            <input type="month" />
+            
+
+            <br /><br />
+
+            <label for="">COMIDAS Y Bebidas FAVORITAS:</label>
+            <input type="checkbox" name="check" id="" />Pupusas
+            <input type="checkbox" name="check" id="" />Tamales
+            <input type="checkbox" name="check" id="" />Atol de Elote
+
+            <br /><br />
+            <label for="">Lenguaje de Programación que me gusta</label>
+            <select name="lenguajes" id="">
+              <option value="">Seleccione una opción</option>
+              <option value="java">Java</option>
+              <option value="PHP">PHP</option>
+            </select>
+
+            <input type="text" list="items" />
+            <!-- Lista de opciones -->
+            <datalist id="items">
+              <option value="1">Opción 1</option>
+              <option value="2">Opción 2</option>
+              <option value="3">Opción 3</option>
+            </datalist>
+            <br /><br />
+            <label for="">selecione un archivo</label>
+            <input type="file" />
+            <br /><br />
+            <label for="">selecione un color</label>
+            <input type="color" />
+            <br />
+          </fieldset>
+
+          <!-- Apellidos -->
+          <!-- edad -->
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
